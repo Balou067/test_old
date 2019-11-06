@@ -9,8 +9,8 @@ copyright: 'Copyright 2017-2019 - Franck Nijhof.'
 # Repository
 repo_name: 'hassio-addons-old_version'
 
-repo_url: 'https://github.com/Balou067/test_old/tree/master/repository'
-# repo_url: 'https://github.com/hassio-addons/repository'
+# repo_url: 'https://github.com/Balou067/test_old/tree/master/repository'
+repo_url: 'https://github.com/hassio-addons/repository'
 edit_uri: ''
 
 # Theme configuration
