@@ -1,6 +1,6 @@
 ---
 repository:
-  description: "Community Hass.io Add-ons for Home Assistant"
+  description: "Community Hass.io Add-ons for Home Assistant - old versions"
   homepage: https://addons.community
   topics: stable, hassio-addons, home-assistant, hassio, addons, hassio-repository, repository
   private: false

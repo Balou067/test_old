@@ -1,14 +1,16 @@
 ---
 # Project information
-site_name: 'Community Hass.io Add-ons for Home Assistant'
+site_name: 'Copy of Community Hass.io Add-ons for Home Assistant - old Versions'
 site_url: 'https://addons.community'
 site_description: 'The primary goal of this project is to provide you (as a Hass.io / Home Assistant user) with additional, high quality, add-ons that allow you to take your automated home to the next level.'
 site_author: 'Franck Nijhof'
 copyright: 'Copyright 2017-2019 - Franck Nijhof.'
 
 # Repository
-repo_name: 'hassio-addons'
-repo_url: 'https://github.com/hassio-addons/repository'
+repo_name: 'hassio-addons-old_version'
+
+repo_url: 'https://github.com/Balou067/test_old/tree/master/repository'
+# repo_url: 'https://github.com/hassio-addons/repository'
 edit_uri: ''
 
 # Theme configuration
