@@ -1,0 +1,37 @@
+{
+  "name": "Grafana",
+  "version": "3.0.0",
+  "slug": "grafana",
+  "description": "The open platform for beautiful analytics and monitoring",
+  "url": "https://github.com/hassio-addons/addon-grafana",
+  "startup": "services",
+  "ingress": true,
+  "ingress_port": 80,
+  "panel_icon": "mdi:chart-timeline",
+  "panel_title": "Grafana",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7"
+  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "options": {
+    "plugins": [],
+    "env_vars": []
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "plugins": [
+      "str"
+    ],
+    "env_vars": [
+      {
+        "name": "match(^GF_([A-Z0-9_])+$)",
+        "value": "str"
+      }
+    ]
+  },
+  "image": "hassioaddons/grafana-{arch}"
+}
