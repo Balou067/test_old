@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  grafana:
+    repository: hassio-addons/addon-grafana
+    target: grafana
+    image: hassioaddons/grafana-{arch}
